@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 LINK=os.environ.get('LINK', " ")
 TEXT1=os.environ.get('TEXT1', "ERICSSON")
-TEXT2=os.environ.get('TEXT2', " RSVP")
-LOGO=os.environ.get('LOGO', " ")
+TEXT2=os.environ.get('TEXT2', "RSVP")
+LOGO=os.environ.get('LOGO', "./static/eric.png")
 COMPANY=os.environ.get('COMPANY', "ERICSSON GLOBAL INDIA Pvt. Ltd.")
 
 MONGODB_HOST=os.environ.get('MONGODB_HOST', 'localhost')
